@@ -12,6 +12,8 @@ const Home = () => {
 
   return (
     <div className="home-container">
+      <div className="text">Join The Chat Room to Enjoy!!!
+      </div>
       <input
         type="text"
         placeholder="Room"

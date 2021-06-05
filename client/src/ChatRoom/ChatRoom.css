@@ -7,17 +7,26 @@
     display: flex;
     flex-direction: column;
     margin: 16px;
+    background-color: blanchedalmond;
 }
 
 .room-name {
     margin-top: 0;
+}
+.text{
+    background-color: blue;
+    text-align: center;
+    width: 99%;
+    height:50%;
+    border: 3px solid black;
+    border-radius: 7px 7px 0 0;
 }
 
 .messages-container {
     flex: 1;
     min-height: 100px;
     overflow: auto;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 7px 7px 0 0;
 }
 
@@ -40,7 +49,7 @@
     padding: 12px 8px;
     word-break: break-word;
     border-radius: 4px;
-    color: white;
+    color: black;
 }
 
 .my-message {

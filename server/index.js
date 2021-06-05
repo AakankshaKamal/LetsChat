@@ -4,7 +4,7 @@ const io = require("socket.io")(server, {
     origin: "*",
   },
 });
-
+//port details
 const PORT = 4000;
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
 
